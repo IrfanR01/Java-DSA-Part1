@@ -12,10 +12,12 @@ public class KadanesMethForMaxSubArray {
                 cursum=0;
 
             }
-            if(cursum>maxsum)
+            maxsum=Math.max(maxsum,cursum)
+
+            /*if(cursum>maxsum)
               {
                     maxsum=cursum;
-             }
+             }*/
                 
             
         }
