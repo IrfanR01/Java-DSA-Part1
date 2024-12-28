@@ -7,7 +7,7 @@ public class SubArray{
        for(int i=0;i<arr.length;i++)
         {
              int start=i;
-           // System.out.print(cur);
+         
             for(int j=i;j<arr.length;j++)
             {
                 int end=j;
@@ -17,7 +17,7 @@ public class SubArray{
             count++;}
             System.out.println();
             }
-           
+            
         }
         
         System.out.println("total no of sub array is "+count);
